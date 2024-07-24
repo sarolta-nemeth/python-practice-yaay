@@ -1,3 +1,6 @@
+#made for the sloth bytes challenge, this is a first for me :D
+#2 functions to check if a string is a title string
+
 def is_title_easy(text):
     return text.istitle()
 
@@ -10,8 +13,6 @@ def is_title_with_split(text):
             return False
     return True
         
-
-
 test_list = [
              "Potatoes ARE Nice",
              "Apples + Oranges",
